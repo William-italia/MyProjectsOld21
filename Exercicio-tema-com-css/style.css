@@ -1,0 +1,89 @@
+/* reset css */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+  background: url('https://images.unsplash.com/photo-1647709067760-9177f8bb13f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80') no-repeat center center/cover;
+  font-size: 62.5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1.3rem;
+
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 1.3rem 0rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background: rgb(24, 24, 24);
+  color: #fff;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 14rem;
+  padding: 2rem;
+  opacity: 0.9;
+  box-shadow: rgba(0, 0, 0, 0.767) 1.95px 1.95px 2.6px;
+}
+
+.info-content .text-primary {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-top: 1px solid rgb(221, 169, 0);
+  border-bottom: 1px solid rgb(221, 169, 0);
+}
+
+.info-content .paragraph p {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.info-content .ass p{
+  content: ' - ';
+  color: rgb(221, 169, 0);
+  margin: 2rem 0rem 1rem 0rem;
+  text-align: end;
+}
+
+.info-content .ass p a{
+  color: rgb(255, 205, 43);
+}
+
+.info-content .ass p a:hover{
+  color: rgb(184, 141, 0);
+  
+}
+
+.container-btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn {
+  text-align: center;
+  color: rgb(6, 111, 138);
+  margin: 1rem 0;
+  background: rgb(247, 189, 1);
+  padding: 1rem 4rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+.btn:hover {
+background: rgb(153, 118, 2);
+}

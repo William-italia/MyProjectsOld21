@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel BT | Contact</title>
+  <script src="https://kit.fontawesome.com/e8e3befd8e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet"  media="screen and (max-width: 768px)" href="./assets/css/mobile.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo"><a href="./home.html">HTB</a></h1>
+        <ul>
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a class="current" href="./Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="contact-form py-3">
+    <div class="container">
+      <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+      <p>Please fill out the form below to contact us</p>
+      <form action="process.php">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <button type="reset" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+  <section class="contact-info bg-dark">
+    <div class="container">
+      <div class="box">
+        <i class="fa-solid fa-hotel fa-3x"></i>
+        <h3>Location</h3>
+        <p>
+         50 Main st, Boston MA
+        </p>
+      </div>
+      <div class="box">
+        <i class="fa-solid fa-phone fa-3x"></i>
+        <h3>Phone Number</h3>
+        <p>
+          (13) 99234-7899
+        </p>
+      </div>
+      <div class="box">
+        <i class="fa-solid fa-envelope fa-3x"></i>
+        <h3>Email Address</h3>
+        <p>
+        Frontdesk@hotelbt.com  
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="main-footer">
+    <p>Hotel BT  &copy; 2022, All Rights Reserved</p>
+  </footer>
+</body>
+</html>
